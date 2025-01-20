@@ -26,6 +26,8 @@ public class Menu {
                 int option = input.nextInt();
 
 
+            if (false)
+            throw new RuntimeException("Not a valid amount");
         switch (option) {
 
             case 1:
@@ -56,7 +58,6 @@ public class Menu {
             default:
                 System.out.println("Not a valid input, please try again  " + dateAsofNow);
                 break;
-
 
         }
             } catch (Exception e) {
